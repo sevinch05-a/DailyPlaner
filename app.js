@@ -4,6 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoList = document.getElementById('todo-list');
 
 
+    function createTaskItem(taskText) {
+        const li = document.createElement('li');
+        const checkbox = document.createElement('input');
+        const label = document.createElement('label');
+        const removeButton = document.createElement('button');
+
+
+    }
+
 
 
 
