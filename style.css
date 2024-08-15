@@ -3,6 +3,12 @@
     color: green;
     height: 100px;
 } */
+#name {
+    color: red;
+    font-size: 80px;
+    text-shadow: 5px 5px 4px rgb(85, 15, 15);
+    font-family: cursive;
+}
 .container {
     border: solid;
     display:flex;
