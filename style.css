@@ -74,3 +74,8 @@ button:hover {
     font-family: cursive;
     color: #cc1023;
 }
+.Bcontainer {
+    border: solid;
+    height: 400px;
+}
+
