@@ -16,14 +16,14 @@
 
 }
 .leftside {
-    /* display: flex;
-    align-items: center; */
+    /* /* display: flex; */
+    align-items: center; 
     border: solid;
     color: rgb(135, 19, 19);
     width: 800px;
     height: 600px;
     background: #f8dbdb;
-    padding: 100px;
+    padding: 50px;
     margin-right:20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -55,4 +55,8 @@ button:hover {
 .todo-list li:last-child {
     border-bottom: none;
 }
+.container2 {
+    border: solid;
+    height: 20px;
 
+}
