@@ -3,3 +3,9 @@
     color: green;
     height: 100px;
 } */
+.container {
+    border: solid;
+    display:flex;
+    justify-content:space-around;
+
+}
