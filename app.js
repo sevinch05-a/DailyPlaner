@@ -15,6 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
         removeButton.textContent = 'Remove';
         removeButton.className = 'remove-task';
 
+        removeButton.addEventListener('click', () => {
+            todoList.removeChild(li);
+        });
     }
 
 
