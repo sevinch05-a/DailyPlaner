@@ -52,5 +52,7 @@ button:hover {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
-
+.todo-list li:last-child {
+    border-bottom: none;
+}
 
