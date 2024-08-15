@@ -46,5 +46,11 @@ button {
 button:hover {
     background-color: #cc1023;
 }
+.todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
 
 
