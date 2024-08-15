@@ -59,5 +59,18 @@ button:hover {
     border: solid;
     height: 800px;
     width: 600px;
+    display: block;
 
+}
+.rightside {
+    border: solid;
+    height: 500px;
+}
+.Acontainer {
+    border: solid;
+    height: 50px;
+    text-align: center;
+    font-size:25px;
+    font-family: cursive;
+    color: #cc1023;
 }
