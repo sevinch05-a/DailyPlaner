@@ -18,8 +18,19 @@ document.addEventListener('DOMContentLoaded', () => {
         removeButton.addEventListener('click', () => {
             todoList.removeChild(li);
         });
+        li.appendChild(checkbox);
+        li.appendChild(label);
+        li.appendChild(removeButton);
+        todoList.appendChild(li);
     }
-
+    addButton.addEventListener('click', () => {
+        const taskText = taskInput.value.trim();
+        if (taskText !== '') {
+            createTaskItem(taskText);
+            taskInput.value = '';
+        }
+    });
+    
 
 
 
