@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const label = document.createElement('label');
         const removeButton = document.createElement('button');
 
+        checkbox.type = 'checkbox';
+        label.textContent = taskText;
+        removeButton.textContent = 'Remove';
+        removeButton.className = 'remove-task';
 
     }
 
