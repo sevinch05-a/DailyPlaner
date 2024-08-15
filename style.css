@@ -35,3 +35,11 @@ input[type="text"] {
     border-radius: 4px;
     font-size: 16px;
 }
+button {
+    
+    border-radius: 4px;
+    background-color: #e8505fe8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
