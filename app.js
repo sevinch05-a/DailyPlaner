@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
    
-    // const glasses = document.querySelectorAll('.glass');
+   
 
     glasses.forEach(glass => {
         glass.addEventListener('click', () => {
