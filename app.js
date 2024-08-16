@@ -35,6 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
             addButton.click();
         }
     });
+    const smallCups = document.querySelectorAll('.cup-small');
+const liters = document.getElementById('liters');
+const percentage = document.getElementById('percentage');
+const tracker = document.getElementById('tracker');
+
 
 
 
