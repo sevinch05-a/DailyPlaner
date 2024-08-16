@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.getElementById('add-task');
     const taskInput = document.getElementById('new-task');
     const todoList = document.getElementById('todo-list');
-
+    const glasses = document.querySelectorAll('.glass');
 
     function createTaskItem(taskText) {
         const li = document.createElement('li');
@@ -35,11 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
             addButton.click();
         }
     });
-    const smallCups = document.querySelectorAll('.cup-small');
-const liters = document.getElementById('liters');
-const percentage = document.getElementById('percentage');
-const tracker = document.getElementById('tracker');
+   
+    // const glasses = document.querySelectorAll('.glass');
 
+    glasses.forEach(glass => {
+        glass.addEventListener('click', () => {
+            glass.classList.toggle('filled');
+        });
+    }); 
 
 
 
