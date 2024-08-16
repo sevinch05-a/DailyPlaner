@@ -101,6 +101,37 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+#water {
+    font-size: 40px;
+    font-family: cursive;
+}
+.glasses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.glass {
+    width: 40px;
+    height: 60px;
+    border: solid #b2b2b2;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+
+}
+.glass::before {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    height: 50%;
+    background-color: transparent;
+    transition: background-color o.3s ease;
+}
+.glass.filled::before{
+    background-color: #4db84d;
+}
 
  
 
